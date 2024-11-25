@@ -1,0 +1,16 @@
+pip install datasets
+pip install penman
+wget -O amr3.0.tar.gz https://amr.isi.edu/download/amr-bank-3.0.txt
+mkdir amr_data
+tar -xvzf amr3.0.tar.gz -C amr_data
+pip install transformers datasets torch
+
+pip install datasets
+pip install penman
+pip install transformers datasets peft
+pip install -U bitsandbytes
+pip install -U accelerate
+pip install amrlib
+pip install word2number
+pip install word2number unidecode
+pip install amrlib
